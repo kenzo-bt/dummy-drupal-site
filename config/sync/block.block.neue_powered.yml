@@ -1,0 +1,22 @@
+uuid: e354c665-0547-4ec0-9b6f-ce14377f4735
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - neue
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: neue_powered
+theme: neue
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

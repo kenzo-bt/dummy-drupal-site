@@ -1,0 +1,22 @@
+uuid: d956cb7a-bd64-4eb9-a85c-8dd463baf6a8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - neue
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: neue_primary_local_tasks
+theme: neue
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

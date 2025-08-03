@@ -1,0 +1,7 @@
+.views-view-grid {
+  display: flex;
+}
+
+.views-view-grid.vertical {
+  flex-direction: column;
+}

@@ -1,0 +1,25 @@
+name: neue
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - neue/base
+  - neue/messages
+  - neue/rainbow
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - neue/user
+  core/drupal.dropbutton:
+    - neue/dropbutton
+  core/drupal.dialog:
+    - neue/dialog
+  file/drupal.file:
+    - neue/file
+  core/drupal.progress:
+    - neue/progress
+  core/drupal.tablesort:
+    - neue/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.2.2'

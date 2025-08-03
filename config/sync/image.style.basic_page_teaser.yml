@@ -1,0 +1,21 @@
+uuid: a02762a5-0983-47e6-a723-b54d7baa8eb8
+langcode: en
+status: true
+dependencies: {  }
+name: basic_page_teaser
+label: 'Basic page teaser'
+effects:
+  e1fcf4e0-61e6-4192-b576-2390097462a1:
+    uuid: e1fcf4e0-61e6-4192-b576-2390097462a1
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  3c7167c9-241a-494c-b9ee-d8159a312b3a:
+    uuid: 3c7167c9-241a-494c-b9ee-d8159a312b3a
+    id: image_scale
+    weight: 2
+    data:
+      width: 300
+      height: null
+      upscale: true

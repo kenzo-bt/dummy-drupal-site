@@ -1,0 +1,11 @@
+uuid: 3d27efbf-a22e-41c3-8be8-033c45c4b91e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.basic_page_teaser
+label: 'Basic page teaser'
+description: null
+targetEntityType: media
+cache: true

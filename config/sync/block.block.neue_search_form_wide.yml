@@ -1,0 +1,23 @@
+uuid: 89e5bb96-4bb8-41d9-ae4f-8ec5ffe9a792
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - neue
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: neue_search_form_wide
+theme: neue
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d0cc45bc-0107-4bfb-8622-7696f7afdf78
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - neue
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: neue_help
+theme: neue
+region: sidebar_first
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
